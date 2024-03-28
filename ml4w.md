@@ -20,8 +20,6 @@ git clone https://gitlab.com/stephan-raabe/hyprland-starter.git
 ```
 cd hyprland-starter
 ```
-
-Start the script
 ```
 ./install.sh
 ```

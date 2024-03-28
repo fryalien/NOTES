@@ -64,9 +64,9 @@ Start the App from your terminal with
 **FOR MORE INFO GO TO:**
 
 
-SOURCE DOTFILES: https://gitlab.com/stephan-raabe/dotfiles
+DOTFILES: https://gitlab.com/stephan-raabe/dotfiles
 
-SOURCE HYPERLAND: https://gitlab.com/stephan-raabe/hyprland-starter
+HYPERLAND: https://gitlab.com/stephan-raabe/hyprland-starter
 
 There is much more explained on the above pages, so don't take this as guide, these are just my notes.
 

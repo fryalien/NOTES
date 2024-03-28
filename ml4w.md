@@ -14,13 +14,9 @@ Change into your GIT directory
 ```
 cd ~/BIGDATA/git
 ```
-
-Clone the packages
 ```
 git clone https://gitlab.com/stephan-raabe/hyprland-starter.git
 ```
-
-Change into the folder
 ```
 cd hyprland-starter
 ```

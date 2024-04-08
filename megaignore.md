@@ -1,0 +1,10 @@
+-:Thumbs.db
+-:desktop.ini
+-:~*
+-:*~.*
+-:*.crdownload
+-:*.sb-????????-??????
+-:*.tmp
+-:.sync.ffs_db
+-:.debris
+-:.DS_store

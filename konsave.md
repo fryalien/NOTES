@@ -24,3 +24,5 @@ konsave -l
 
 # REMOVE A PROFILE
 konsave -r <profile name>
+
+SOURCE: https://github.com/Prayag2/konsave

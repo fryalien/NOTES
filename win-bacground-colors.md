@@ -1,0 +1,19 @@
+**WINDOWS 2000**
+
+RGB
+Red: 59
+Green: 110
+Blue: 165
+
+Hexadecimal
+#3B6EA5
+
+**WINDOWS 95/98**
+
+RGB
+RED: 0
+GREEN: 128
+BLUE: 128
+
+Hexadecimal
+#008080

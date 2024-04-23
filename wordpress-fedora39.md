@@ -112,19 +112,19 @@ sudo mariadb -u root -p
 From your MariaDB shell, run the following commands to create a database and user with all privileges for WordPress on Fedora 39:
 
 ```
-MariaDB [(none)]> CREATE DATABASE wordpressdb;
+CREATE DATABASE wordpressdb;
 ```
 ```
-MariaDB [(none)]> GRANT ALL PRIVILEGES ON wordpressdb.* TO 'wpuser'@'localhost' IDENTIFIED BY '12345';
+GRANT ALL PRIVILEGES ON wordpressdb.* TO 'wpuser'@'localhost' IDENTIFIED BY '12345';
 ```
 
 Then, **flush the privileges** and exit from MariaDB:
 
 ```
-MariaDB [(none)]> FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;
 ```
 ```
-MariaDB [(none)]> EXIT;
+EXIT;
 ```
 
 

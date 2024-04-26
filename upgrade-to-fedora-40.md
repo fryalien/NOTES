@@ -21,3 +21,5 @@ sudo dnf system-upgrade download --releasever=40
 ```
 sudo dnf system-upgrade reboot
 ```
+
+YOUTUBE: https://youtu.be/u-DPnsBi_nI

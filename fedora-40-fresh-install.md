@@ -3,7 +3,7 @@ YOUTUBE: https://youtu.be/BRVFrEhecnY
 
 # INSTALL MICRO
 ```
-sudo dnf install micro
+sudo dnf install micro -y
 ```
 # EDIT DNF CONFIG FILE
 ```
@@ -41,7 +41,7 @@ sudo dnf group update core -y
 
 # INSTALL FLATPAK
 ```
-sudo dnf install -y flatpak
+sudo dnf install flatpak -y
 ```
 
 ```
@@ -50,11 +50,11 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # INSTALL CODECS ON FEDORA
 ```
-sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel -y
 ```
 
 ```
-sudo dnf install -y lame\* --exclude=lame-deve
+sudo dnf install lame\* --exclude=lame-deve -y
 ```
 
 ```
@@ -63,12 +63,12 @@ sudo dnf group upgrade --allowerasing --with-optional Multimedia -y
 
 # INSTALL MEDIA PLAYERS
 ```
-sudo dnf install vlc mpv
+sudo dnf install vlc mpv -y
 ```
 
 # INSTALL FISH SHELL
 ```
-sudo dnf install -y fish
+sudo dnf install fish -y
 ```
 
 # CHANGE SHELL FOR CURRENT USER
@@ -78,7 +78,7 @@ chsh -s /usr/bin/fish
 
 # INSTALL GIT
 ```
-sudo dnf install git
+sudo dnf install git -y
 ```
 
 # DOWNLOAD APPIMAGE LAUNCHER
@@ -101,7 +101,7 @@ sudo rpm -i appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 # REMOVE FIREFOX / INSTALL LIBREVOLF
 
 ```
-sudo dnf remove firefox
+sudo dnf remove firefox -y
 ```
 
 **FLATPAK**
@@ -115,5 +115,5 @@ curl -fsSL https://rpm.librewolf.net/librewolf-repo.repo | pkexec tee /etc/yum.r
 ```
 
 ```
-sudo dnf install librewolf
+sudo dnf install librewolf -y
 ```

@@ -1,6 +1,7 @@
 YOUTUBE: https://www.youtube.com/watch?v=2KgN0qNg2wA
 
 Applications in this video:
+
 **7ZIP**
 https://7-zip.org/
 

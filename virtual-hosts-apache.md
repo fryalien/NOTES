@@ -1,6 +1,6 @@
 YOUTUBE: https://youtu.be/7H-EgZa5giI
 
-YOUTUBE: https://https://youtu.be/Z3DZUHIahsM
+YOUTUBE: https://youtu.be/Z3DZUHIahsM
 
 **Step 1 – Install Apache on Fedora 39**
 
@@ -306,13 +306,13 @@ micro /etc/httpd/conf/httpd.conf
 
 ```
 <VirtualHost 127.0.0.1:80>  
-   DocumentRoot /var/www/html/jupiter  
-   ServerName www.jupiter.com  
+    DocumentRoot /var/www/html/jupiter
+    ServerName www.jupiter.com
 </VirtualHost>  
   
 <VirtualHost 127.0.0.1:80>  
-   DocumentRoot /var/www/html/mars  
-   ServerName www.mars.com  
+    DocumentRoot /var/www/html/mars
+    ServerName www.mars.com
 </VirtualHost>
 ```
 

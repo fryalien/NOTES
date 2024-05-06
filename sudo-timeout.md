@@ -1,10 +1,10 @@
-# Change the default sudo timeout on Linux
+**CHANGE THE DEAFULT SUDO TIMEOUT ON LINUX**
 
 ```
 sudo visudo
 ```
 
-OR
+or
 
 ```
 sudo micro /etc/sudoers
@@ -14,7 +14,7 @@ sudo micro /etc/sudoers
 Defaults    timestamp_timeout=60  #60 min
 ```
 
-# SPECIFIC USER
+**SPECIFIC USER**
 
 ```
 Defaults:USER timestamp_timeout=0

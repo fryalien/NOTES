@@ -3,6 +3,17 @@
 
 YOUTUBE: https://youtu.be/V7z4VQcVx0s
 
+**INSTALL EXIFTOOL**
+
+```
+sudo pacman -S perl-image-exiftool
+```
+
+```
+sudo dnf install perl-image-exiftool
+```
+
+
 
 **REMOVE METADATA AND EXIF DATA FROM PHOTO**
 ```

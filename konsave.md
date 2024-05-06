@@ -1,28 +1,32 @@
-# KONSAVE INSTALL
+**KONSAVE INSTALL
 
->> ARCO LINUX
+> ARCO LINUX
+```
 sudo pacman -S konsave
+```
 
->> python
+> python
+```
 python -m pip install konsave
+```
 
-# SAVE PROFILE
+**SAVE PROFILE**
 konsave -s <profile name>
 
-# EXPORT PROFILE
+**EXPORT PROFILE**
 konsave -e <profile name>
 
-# IMPORT PROFILE
+**IMPORT PROFILE**
 konsave -i <path to the file>
 
-# APPLY PROFILE
+**APPLY PROFILE**
 konsave -a <profile name>
 
 
-# LIST ALL PROFILES
+**LIST ALL PROFILES**
 konsave -l
 
-# REMOVE A PROFILE
+**REMOVE A PROFILE**
 konsave -r <profile name>
 
 SOURCE: https://github.com/Prayag2/konsave

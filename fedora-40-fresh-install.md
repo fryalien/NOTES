@@ -1,11 +1,11 @@
 YOUTUBE: https://youtu.be/BRVFrEhecnY
 
 
-# INSTALL MICRO
+**INSTALL MICRO**
 ```
 sudo dnf install micro -y
 ```
-# EDIT DNF CONFIG FILE
+**EDIT DNF CONFIG FILE**
 ```
 micro /etc/dnf/dnf.conf
 ```
@@ -19,27 +19,27 @@ fastestmirror=True
 countme=False
 ```
 
-# UPDATE REPOSITORIES AND INSTALL UPDATES
+**UPDATE REPOSITORIES AND INSTALL UPDATES**
 ```
 sudo dnf update --refresh
 ```
 
-# INSTALL RPMFUSION FREE
+**INSTALL RPMFUSION FREE**
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 ```
 
-# INSTALL RPM-FUSION NON-FREE
+**INSTALL RPM-FUSION NON-FREE**
 ```
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 ```
 
-# INSTALL FOR GUI
+**INSTALL FOR GUI**
 ```
 sudo dnf group update core -y
 ```
 
-# INSTALL FLATPAK
+**INSTALL FLATPAK**
 ```
 sudo dnf install flatpak -y
 ```
@@ -48,7 +48,7 @@ sudo dnf install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-# INSTALL CODECS ON FEDORA
+**INSTALL CODECS ON FEDORA**
 ```
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel -y
 ```
@@ -61,27 +61,27 @@ sudo dnf install lame\* --exclude=lame-deve -y
 sudo dnf group upgrade --allowerasing --with-optional Multimedia -y
 ```
 
-# INSTALL MEDIA PLAYERS
+**INSTALL MEDIA PLAYERS**
 ```
 sudo dnf install vlc mpv -y
 ```
 
-# INSTALL FISH SHELL
+**INSTALL FISH SHELL**
 ```
 sudo dnf install fish -y
 ```
 
-# CHANGE SHELL FOR CURRENT USER
+**CHANGE SHELL FOR CURRENT USER**
 ```
 chsh -s /usr/bin/fish
 ```
 
-# INSTALL GIT
+**INSTALL GIT**
 ```
 sudo dnf install git -y
 ```
 
-# DOWNLOAD APPIMAGE LAUNCHER
+**DOWNLOAD APPIMAGE LAUNCHER**
 
 LINK: https://github.com/TheAssassin/AppImageLauncher/releases/
 
@@ -98,18 +98,18 @@ wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/ap
 sudo rpm -i appimagelauncher-2.2.0-travis995.0f91801.x86_64.rpm
 ```
 
-# REMOVE FIREFOX / INSTALL LIBREVOLF
+**REMOVE FIREFOX / INSTALL LIBREVOLF**
 
 ```
 sudo dnf remove firefox -y
 ```
 
-**FLATPAK**
+> FLATPAK
 ```
 flatpak install flathub io.gitlab.librewolf-community
 ```
 
-**REPO INSTALL**
+> REPO INSTALL
 ```
 curl -fsSL https://rpm.librewolf.net/librewolf-repo.repo | pkexec tee /etc/yum.repos.d/librewolf.repo
 ```

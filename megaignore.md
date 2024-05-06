@@ -1,3 +1,4 @@
+```
 -:Thumbs.db
 -:desktop.ini
 -:~*
@@ -8,3 +9,4 @@
 -:.sync.ffs_db
 -:.debris
 -:.DS_store
+```

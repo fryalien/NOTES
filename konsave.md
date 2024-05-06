@@ -12,19 +12,19 @@ python -m pip install konsave
 
 **SAVE PROFILE**
 
-konsave -s <profile name>
+konsave -s profile_name
 
 **EXPORT PROFILE**
 
-konsave -e <profile name>
+konsave -e profile_name
 
 **IMPORT PROFILE**
 
-konsave -i <path to the file>
+konsave -i path_to_the_file/profile_name
 
 **APPLY PROFILE**
 
-konsave -a <profile name>
+konsave -a profile_name
 
 
 **LIST ALL PROFILES**
@@ -33,6 +33,6 @@ konsave -l
 
 **REMOVE A PROFILE**
 
-konsave -r <profile name>
+konsave -r profile_name
 
 SOURCE: https://github.com/Prayag2/konsave

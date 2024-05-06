@@ -10,7 +10,7 @@ sudo pacman -S perl-image-exiftool
 ```
 
 ```
-sudo dnf install perl-image-exiftool
+sudo dnf install perl-Image-ExifTool
 ```
 
 

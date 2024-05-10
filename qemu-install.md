@@ -87,8 +87,9 @@ systemctl status libvirtd
 
 
 
-
-
-
 ### TLDR
 KVM and QEMU are two different virtualization technologies, one has a type 1 hypervisor and the other has a type 2 hypervisor. KVM runs directly on hardware, whereas QEMU runs on top of the operating system. QEMU uses KVM as a backend to access hardware resources and use the software emulation to visualize the hardware.
+
+---
+
+YOUTUBE: https://youtu.be/rRwbXmh2O3M

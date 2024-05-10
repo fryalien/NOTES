@@ -12,3 +12,7 @@ ffmpeg -i input_file.mp4 -c:v libx265 -vtag hvc1 -c:a copy output_file.mp4
 ```
 ffmpeg -i input_file.mp4 -c:v libx265 -vtag hvc1 -vf scale=1920:1080 -crf 20 -c:a copy  output_file.mp4
 ```
+
+---
+
+YOUTUBE: https://youtu.be/bicYWSQdK10

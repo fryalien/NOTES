@@ -2,6 +2,8 @@ YOUTUBE: https://youtu.be/7H-EgZa5giI
 
 YOUTUBE: https://youtu.be/Z3DZUHIahsM
 
+---
+
 **Step 1 – Install Apache on Fedora 39**
 
 First, you must run the system update and install Apache as your web server on Fedora 39. To do this, run the commands below:
@@ -381,4 +383,10 @@ mars@local.com
 ```
 http://www.mars.com/wp-admin/
 ```
+
+---
+
+YOUTUBE: https://youtu.be/7H-EgZa5giI
+
+YOUTUBE: https://youtu.be/Z3DZUHIahsM
 

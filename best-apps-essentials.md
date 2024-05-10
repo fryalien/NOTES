@@ -1,5 +1,7 @@
 YOUTUBE: https://www.youtube.com/watch?v=2KgN0qNg2wA
 
+---
+
 Applications in this video:
 
 **7ZIP**
@@ -69,3 +71,7 @@ https://www.onlyoffice.com/desktop.aspx
 
 **OBSIDIAN**
 https://obsidian.md/
+
+---
+
+YOUTUBE: https://www.youtube.com/watch?v=2KgN0qNg2wA

@@ -1,5 +1,7 @@
 SOURCE: https://orcacore.com/wordpress-installation-fedora39/
 
+---
+
 **Step 1 – Install Apache on Fedora 39**
 
 First, you must run the system update and install Apache as your web server on Fedora 39. To do this, run the commands below:
@@ -24,6 +26,8 @@ Also, you can check your Apache web server is active and running on Fedora 39:
 ```
 sudo systemctl status httpd
 ```
+
+---
 
 **Step 2 – Configure PHP For WordPress on Fedora 39**
 
@@ -71,6 +75,8 @@ You can verify your PHP-FPM is active and running with the command below:
 ```
 sudo systemctl status php-fpm
 ```
+
+---
 
 **Step 3 – MariaDB Configuration For WordPress on Fedora 39**
 
@@ -127,6 +133,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
+---
 
 **Step 4 – Download and Configure Latest WordPress on Fedora 39**
 
@@ -195,6 +202,7 @@ sudo chown -R apache:apache /var/www/html/wordpress
 sudo chmod -R 755 /var/www/html/wordpress
 ```
 
+---
 
 **Step 5 – Configure Apache Virtual Host File For WordPress**
 
@@ -225,6 +233,8 @@ Next, restart the Apache service to apply the changes:
 sudo systemctl restart httpd
 ```
 
+---
+
 **Step 6 – Firewalld Configuration for WordPress**
 
 Here we assumed that you have enabled FirewallD. Now you need to allow ports 80 and 443 through your firewalld on Fedora 39. To do this, run the commands below:
@@ -241,6 +251,8 @@ Then, reload the firewall to apply the new rules:
 ```
 sudo systemctl reload firewalld
 ```
+
+---
 
 **Step 7 – Install WordPress via Web Interface in Fedora 39**
 
@@ -265,10 +277,11 @@ wpuser@local.com
 http://wplocal.localhost/wp-admin/
 ```
 
+---
 
 **no cert part, STEP 8**
 
-
+---
 
 **THE END**
 

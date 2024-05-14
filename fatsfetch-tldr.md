@@ -97,7 +97,9 @@ fastfetch --list-data-paths
 
 
 **PRESETS**
+
 https://github.com/fastfetch-cli/fastfetch/tree/dev/presets
+
 https://github.com/fastfetch-cli/fastfetch/tree/dev/presets/examples
 
 

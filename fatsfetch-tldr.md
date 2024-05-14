@@ -3,8 +3,11 @@
 ---
 
 **LINKS:**
+
 https://github.com/fastfetch-cli/fastfetch
+
 https://github.com/fastfetch-cli/fastfetch/tree/dev/presets
+
 https://github.com/fastfetch-cli/fastfetch/tree/dev/presets/examples
 
 ---

@@ -7,6 +7,10 @@ sudo pacman -S konsave
 
 > FEDORA python
 ```
+sudo dnf install pip
+```
+
+```
 python -m pip install konsave
 ```
 
@@ -47,3 +51,5 @@ konsave -r profile_name
 ---
 
 SOURCE: https://github.com/Prayag2/konsave
+
+YOUTUBE: https://youtu.be/jEVcrPMfXGU

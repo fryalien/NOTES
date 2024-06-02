@@ -5,9 +5,18 @@
 sudo pacman -S konsave
 ```
 
-> python
+> FEDORA python
 ```
 python -m pip install konsave
+```
+
+> OPEN SUSE Tumbleweed python
+```
+sudo zypper install python311-pipx
+```
+
+```
+pipx install konsave
 ```
 
 **SAVE PROFILE**
@@ -20,7 +29,7 @@ konsave -e profile_name
 
 **IMPORT PROFILE**
 
-konsave -i path_to_the_file/profile_name
+konsave -i path_to_the_file/profile_name.knsv
 
 **APPLY PROFILE**
 
@@ -34,5 +43,7 @@ konsave -l
 **REMOVE A PROFILE**
 
 konsave -r profile_name
+
+---
 
 SOURCE: https://github.com/Prayag2/konsave

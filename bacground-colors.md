@@ -17,3 +17,7 @@ BLUE: 128
 
 Hexadecimal
 #008080
+
+
+**DESERT THEME**
+#1C202E

@@ -1,4 +1,4 @@
-YOUTUBE: https://youtu.be/4amxR9MwiMY
+**YOUTUBE:** https://youtu.be/4amxR9MwiMY
 
 ---
 
@@ -67,24 +67,14 @@ ls -l /usr/share/xsessions/
 
 **SDDM LINKS:**
 
-**YOUTUBE**
+YOUTUBE: https://youtu.be/4amxR9MwiMY
 
-https://youtu.be/4amxR9MwiMY
+GitHub source code: https://github.com/sddm/sddm
 
-GitHub source code
+Arch Wiki: https://wiki.archlinux.org/title/SDDM
 
-https://github.com/sddm/sddm
+KDE Store - Themes: https://store.kde.org/browse?cat=101&ord=latest
 
-Arch Wiki
-
-https://wiki.archlinux.org/title/SDDM
-
-KDE Store - Themes
-
-https://store.kde.org/browse?cat=101&ord=latest
-
-kio-admin link
-
-https://github.com/KDE/kio-admin
+kio-admin link: https://github.com/KDE/kio-admin
 
 

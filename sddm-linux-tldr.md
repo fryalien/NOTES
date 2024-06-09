@@ -75,6 +75,6 @@ Arch Wiki: https://wiki.archlinux.org/title/SDDM
 
 KDE Store - Themes: https://store.kde.org/browse?cat=101&ord=latest
 
-kio-admin link: https://github.com/KDE/kio-admin
+kio-admin: https://github.com/KDE/kio-admin
 
 

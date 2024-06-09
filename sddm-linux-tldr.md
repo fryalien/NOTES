@@ -42,7 +42,7 @@ micro /etc/sddm.conf
 
 ```
 [Theme]
-Current=maya
+Current=arcolinux-simplicity
 ```
 
 **PREVIEW SDDM THEME**
@@ -71,13 +71,19 @@ YOUTUBE
 https://youtu.be/4amxR9MwiMY
 
 GitHub source code
+
 https://github.com/sddm/sddm
+
 Arch Wiki
+
 https://wiki.archlinux.org/title/SDDM
+
 KDE Store - Themes
+
 https://store.kde.org/browse?cat=101&ord=latest
 
 kio-admin link
+
 https://github.com/KDE/kio-admin
 
 

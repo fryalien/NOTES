@@ -160,7 +160,7 @@ map F2 launch --cwd=current /usr/bin/vi .
 
 ---
 
-**KITTY DOPCUMENTATION**
+**KITTY DOCUMENTATION**
 
 https://sw.kovidgoyal.net/kitty/conf/
 

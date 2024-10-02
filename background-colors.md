@@ -24,3 +24,6 @@ Hexadecimal
 
 **ICE BLUE**
 #C9E8EA
+
+**DARK BLUE**
+#030c20

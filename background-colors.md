@@ -21,3 +21,6 @@ Hexadecimal
 
 **DESERT THEME**
 #1C202E
+
+**ICE BLUE**
+#C9E8EA

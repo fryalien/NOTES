@@ -1,4 +1,4 @@
-**ImageMagick packge needs to be installed**
+**ImageMagick needs to be installed**
 
 This converts all those formats to png, leaving copy of original photo.
 

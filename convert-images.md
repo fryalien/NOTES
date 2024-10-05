@@ -29,7 +29,7 @@ convert example.png -resize 1920x1080 example.png
 **RESIZE IMAGE - ignore aspect ratio**
 
 ```
-convert wallpaper.png -resize 200x100! wallpaper.png
+convert wallpaper.png -resize 1920x1080! wallpaper.png
 ```
 
 **ROTATE AN IMAGE by 90 degrees**

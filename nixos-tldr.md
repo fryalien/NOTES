@@ -131,7 +131,7 @@ sudo micro /etc/nixos/configuration.nix
 
 ---
 
-**LIST AND DELETE NIX GENERATIONS**
+**LIST AND DELETE NIX TRASH**
 
 ```
 nixos-rebuild list-generations

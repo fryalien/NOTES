@@ -42,7 +42,7 @@ sudo nixos-rebuild switch
 
 **UPDATE PACKAGES**
 
-**CHECK FOR UPDATES IN YOUR CHANNEL
+**CHECK FOR UPDATES IN YOUR CHANNEL**
 
 ```
 sudo nix-channel --update

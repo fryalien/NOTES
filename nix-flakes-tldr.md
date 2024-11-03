@@ -65,11 +65,9 @@ Add the following text for unstable packages:
     };
 
   outputs = { self, nixpkgs, ... }:
-    let
-      lib = nixpkgs.lib;
-    in {
+    
     nixosConfigurations = {
-      niki = lib.nixosSystem {
+      niki = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [ ./configuration.nix ];
         };

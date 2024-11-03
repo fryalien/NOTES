@@ -6,7 +6,6 @@
 
 ```
 nix-channel --update
-
 ```
 
 ```

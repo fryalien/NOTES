@@ -2,18 +2,6 @@
 
 ---
 
-**UPDATE CHANNEL**
-
-```
-nix-channel --update
-```
-
-```
-sudo nixos-rebuild switch
-```
-
----
-
 **SWITCH TO NIXOS UNSTABLE**
 
 List current channel.

@@ -65,14 +65,14 @@ Add the following text for unstable packages:
     };
 
   outputs = { self, nixpkgs, ... }:
-    
+  {  
     nixosConfigurations = {
       niki = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [ ./configuration.nix ];
         };
       };
-    };
+   };
 
 }
 ```

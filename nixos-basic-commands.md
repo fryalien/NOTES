@@ -24,6 +24,8 @@ systemctl list-timers
 sudo nix-env --list-generations --profile /nix/var/nix/profiles/system
 ```
 
+---
+
 **WITH FALKES AND HOME MANAGER**
 
 >update flake
@@ -50,6 +52,8 @@ cd ~/nix; home-manager switch --flake ~/nix
 nix run home-manager/master -- switch -b backup --flake ~/nix
 ```
 
+---
+
 **WITHOUT FLAKES**
 
 >update channel
@@ -64,6 +68,7 @@ sudo nix-channel --update
 sudo nixos-rebuild switch
 ```
 
+---
 
 **WITH FLAKES**
 

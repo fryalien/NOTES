@@ -69,17 +69,17 @@ cd ~/nix; nix flake update
 >update the system
 
 ```
-cd ~/nix; sudo nixos-rebuild switch --flake ~/nix
+cd ~/nix; sudo nixos-rebuild switch --flake ~/nix#niki
 ```
 
 >update home-manager
 
 ```
-cd ~/nix; home-manager switch --flake ~/nix
+cd ~/nix; home-manager switch --flake ~/nix#y
 ```
 
 >rebuild home-manager
 
 ```
-nix run home-manager/master -- switch -b backup --flake ~/nix
+nix run home-manager/master -- switch -b backup --flake ~/nix#y
 ```

@@ -45,7 +45,7 @@ cp /etc/nixos/configuration.nix ~/nix;
 ```
 
 ```
-cp /etc/nixos/hardware-configuration ~/nix;
+cp /etc/nixos/hardware-configuration.nix ~/nix;
 ```
 
 Create `flake.nix` file.

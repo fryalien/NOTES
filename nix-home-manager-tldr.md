@@ -72,7 +72,7 @@ cp ~./config/home-manager/home.nix ~/nix
           modules = [ ./home.nix ];
         };
       };
-  };
+    };
 
 }
 ```

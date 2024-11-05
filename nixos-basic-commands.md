@@ -26,25 +26,25 @@ sudo nix-env --list-generations --profile /nix/var/nix/profiles/system
 
 **WITH FALKES AND HOME MANAGER**
 
->UPDATE FLAKE
+>update flake
 
 ```
 cd ~/nix; nix flake update
 ```
 
-**UPDATE SYSTEM**
+>update the system
 
 ```
 cd ~/nix; sudo nixos-rebuild switch --flake ~/nix
 ```
 
->UPDATE HOME-MANAGER
+>update home-manager
 
 ```
 cd ~/nix; home-manager switch --flake ~/nix
 ```
 
->REBUILD HOME-MANAGER
+>rebuild home-manager
 
 ```
 nix run home-manager/master -- switch -b backup --flake ~/nix
@@ -52,13 +52,13 @@ nix run home-manager/master -- switch -b backup --flake ~/nix
 
 **WITHOUT FLAKES**
 
->UPDATE CHANNEL
+>update channel
 
 ```
 sudo nix-channel --update
 ```
 
->UPDATE SYSTEM
+>update the system
 
 ```
 sudo nixos-rebuild switch

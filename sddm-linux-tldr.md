@@ -16,7 +16,7 @@ sudo pacman -Sy sddm
 
 > FEDORA
 ```
-sudo snd install sddm
+sudo dnf install sddm
 ```
 
 **ENABLE SDDM**

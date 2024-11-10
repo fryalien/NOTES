@@ -1,4 +1,4 @@
-**Put this in your configuration.nix file on your host machine.**
+**Put this in your `configuration.nix` file on your host machine.**
 
 ```
 { config, pkgs, ... }:
@@ -12,7 +12,7 @@
 
 ```
 
-**Virt-manager GUEST (configuration.nix)**
+**Virt-manager GUEST (`configuration.nix`)**
 
 ```
 {
@@ -21,13 +21,13 @@
 }
 ```
 
-**CHECK STATUS OF DEFAULT NETWORK ON VIRT-MANAGER**
+**Check the status of the default network on Virt-Manager**
 
 ```
 sudo virsh net-list --all
 ```
 
-**AUTOSTART DEFAULT NETWORK**
+**Autostart default network**
 
 ```
 sudo virsh net-autostart --network default

@@ -32,3 +32,14 @@ sudo virsh net-list --all
 ```
 sudo virsh net-autostart --network default
 ```
+
+**Put your user in `libvirtd` group (`configuration.nix`)**
+
+```
+users.users.y = {
+	...
+	...
+	extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+	...
+}
+```

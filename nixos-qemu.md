@@ -1,4 +1,4 @@
-**Put this in your `configuration.nix` file on your host machine.**
+**Put this in your `configuration.nix` file on your HOST machine.**
 
 ```
 { config, pkgs, ... }:

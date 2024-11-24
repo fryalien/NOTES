@@ -6,6 +6,12 @@
 sudo nix-channel --list
 ```
 
+>switch to unstable channel
+
+```
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+```
+
 >delete old stuff
 
 ```
@@ -43,6 +49,12 @@ sudo nix-channel --update
 
 ```
 sudo nixos-rebuild switch
+```
+
+>update all
+
+```
+sudo nixos-rebuild switch --upgrade
 ```
 
 ---

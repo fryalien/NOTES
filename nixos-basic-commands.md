@@ -35,6 +35,12 @@ sudo nix-env --list-generations --profile /nix/var/nix/profiles/system
 nix-shell -p nix-info --run "nix-info -m"
 ```
 
+>Build the configuration and make it the default boot option, but don't activate it until the next reboot
+
+```
+sudo nixos-rebuild boot
+```
+
 ---
 
 **WITHOUT FLAKES**

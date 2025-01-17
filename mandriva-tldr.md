@@ -3,8 +3,11 @@ YOUTUBE: https://youtu.be/YWscSDQ_ikY
 ---
 
 **OPENMANDRIVA ROME**
+
 Homepage: https://www.openmandriva.org/
+
 Forum: https://forum.openmandriva.org/
+
 Wiki: https://wiki.openmandriva.org/en/home
 
 ---

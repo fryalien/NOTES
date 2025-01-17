@@ -2,7 +2,7 @@ YOUTUBE: https://youtu.be/YWscSDQ_ikY
 
 ---
 
-**OPENMANDRIVA ROME**
+**OPENMANDRIVA**
 
 Homepage: https://www.openmandriva.org/
 

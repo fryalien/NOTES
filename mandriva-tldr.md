@@ -84,6 +84,12 @@ sudo dnf search micro
 sudo dnf -y autoremove; dnf clean all
 ```
 
+**INSTALL MICRO EDITOR**
+
+```
+su - root -c "cd /usr/bin; wget -O- https://getmic.ro | GETMICRO_REGISTER=y sh"
+```
+
 ---
 
 YOUTUBE: https://youtu.be/YWscSDQ_ikY

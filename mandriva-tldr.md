@@ -48,6 +48,12 @@ sudo dnf install task-plasma6-X11
 sudo dnf install plasma6-workspace-wayland plasma6-kwin-wayland plasma6-libkscreen-wayland kf6-kidletime-wayland kf6-kwindowsystem-backend-wayland
 ```
 
+**INSTALL ANY DE**
+
+```
+sudo dnf install task-cosimc
+```
+
 **LIST REPOSITORIES**
 
 ```

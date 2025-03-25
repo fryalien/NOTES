@@ -47,7 +47,7 @@ sudo dnf install i3bar
 micro ~/.config/i3/config
 ```
 
-# set KEYBOARD layout
+**set keyboard layout**
 
 ```
 bindsym control+Shift+x exec ~/.config/i3/i3-keyboard-layout cycle us hr

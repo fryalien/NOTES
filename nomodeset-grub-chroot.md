@@ -32,7 +32,7 @@ sudo chroot /mnt
 >Edit the GRUB configuration file:
 
 ```
-sudo nano /etc/default/grub
+nano /etc/default/grub
 ```
 
 >Find the line that starts with GRUB_CMDLINE_LINUX_DEFAULT and add nomodeset to it.
@@ -42,7 +42,7 @@ sudo nano /etc/default/grub
 >Update GRUB:
 
 ```
-sudo update-grub
+update-grub
 ```
 
 >Exit the chroot environment:

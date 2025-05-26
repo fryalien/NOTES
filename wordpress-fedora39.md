@@ -43,7 +43,7 @@ Verify your PHP installation by checking its version:
 php --version
 ```
 
-Now you must **edit the php.ini** file configuration and make some changes. To do this, you can open the file with your desired text editor like Vi editor or Nano editor:
+Now you must **edit the php.ini** file configuration and make some changes. To do this, you can open the file with your desired text editor like micro editor:
 
 ```
 sudo micro /etc/php.ini
@@ -137,7 +137,7 @@ EXIT;
 
 **Step 4 – Download and Configure Latest WordPress on Fedora 39**
 
-At this point, you must navigate to your Apache web root directory on Feodra 39 with the command below:
+At this point, you must navigate to your Apache web root directory on Fedora 39 with the command below:
 
 ```
 cd /var/www/html

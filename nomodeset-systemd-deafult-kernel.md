@@ -19,3 +19,9 @@ bootctl set-default choose_your_kernel
 ```
 nomodeset
 ```
+
+**to make nomodeset permanent add it to this file**
+
+```
+micro /etc/kernel/cmdline
+```

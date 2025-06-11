@@ -6,6 +6,12 @@
 sudo systemctl stop snapd
 ```
 
+>Check the procesess.
+
+```
+ps -ef | grep snap
+```
+
 >Remove everything installed via snap.
 
 ```
@@ -22,6 +28,12 @@ rm -rf ~/snap/
 
 ```
 sudo rm -rf /var/cache/snapd/
+```
+
+>Remove root snap folder.
+
+```
+sudo rm -rf /root/snap/
 ```
 
 >Look for leftover direcory (and delete if anything is left).

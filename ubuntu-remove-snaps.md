@@ -46,7 +46,7 @@ sudo find / -type d -name snap
 >Stop snaps being reinstalled.
 
 ```
-sudo gedit /etc/apt/preferences.d/nosnap.pref
+sudo micro /etc/apt/preferences.d/nosnap.pref
 ```
 
 >Add folowing lines.
@@ -70,11 +70,7 @@ sudo apt install snapd
 **INSTALL FLATPAK**
 
 ```
-sudo apt install flatpak
-```
-
-```
-sudo apt install gnome-software-plugin-flatpak
+sudo apt install flatpak gnome-software-plugin-flatpak
 ```
 
 ```

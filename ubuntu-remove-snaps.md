@@ -43,6 +43,20 @@ sudo find / -type d -name snap
 
 ```
 
+>Stop snaps being reinstalled.
+
+```
+sudo gedit /etc/apt/preferences.d/nosnap.pref
+```
+
+>Add folowing lines.
+
+```
+Package: snapd
+Pin: release a=*
+Pin-Priority: -10
+```
+
 ---
 
 reinstall snaps later

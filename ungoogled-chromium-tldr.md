@@ -26,9 +26,17 @@ Setting >> Search engine >> Change
 
 >Brave setup
 
-Name: Brave
+Name:
 
-Shorcut: search.brave.com
+```
+Brave
+```
+
+Shorcut:
+
+```
+search.brave.com
+```
 
 URL:
 

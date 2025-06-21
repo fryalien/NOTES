@@ -25,9 +25,17 @@ Name: Brave
 
 Shorcut: search.brave.com
 
-URL: https://search.brave.com/search?q=%s
+URL:
 
-Suggestion: https://search.brave.com/api/suggest?q=%s
+```
+https://search.brave.com/search?q=%s
+```
+
+Suggestion:
+
+```
+https://search.brave.com/api/suggest?q=%s
+```
 
 **PLUGINS**
 

@@ -15,7 +15,9 @@ chrome://flags/#extension-mime-request-handling
 Always prompt for install
 ```
 
->Setup brave as default search engine.
+---
+
+**Setup brave as default search engine.**
 
 Setting >> Search engine >> Change
 
@@ -36,6 +38,8 @@ Suggestion:
 ```
 https://search.brave.com/api/suggest?q=%s
 ```
+
+---
 
 **PLUGINS**
 

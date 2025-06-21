@@ -57,3 +57,9 @@ FONT=ter-132n
 ```
 sudo mkinitcpio -P
 ```
+
+>On EndeavourOS run this:
+
+```
+sudo dracut -f --regenerate-all
+```

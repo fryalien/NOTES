@@ -1,19 +1,22 @@
 **UNGOOGLED CHROMIUM**
 
-
+```
 chrome://ungoogled-first-run/
-
->Web store.
-
-https://github.com/NeverDecaf/chromium-web-store
+```
 
 >Change this FIRST
 
+```
 chrome://flags/#extension-mime-request-handling
+```
 
 ```
 Always prompt for install
 ```
+
+>Web store.
+
+https://github.com/NeverDecaf/chromium-web-store
 
 ---
 

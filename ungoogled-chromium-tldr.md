@@ -21,21 +21,13 @@ Setting >> Search engine >> Change
 
 >Brave setup
 
-Name:
+Name: Brave
 
-brave
+Shorcut: search.brave.com
 
-Shorcut:
+URL: https://search.brave.com/search?q=%s
 
-search.brave.com
-
-URL:
-
-https://search.brave.com/search?q=%s
-
-Suggestion:
-
-https://search.brave.com/api/suggest?q=%s
+Suggestion: https://search.brave.com/api/suggest?q=%s
 
 **PLUGINS**
 

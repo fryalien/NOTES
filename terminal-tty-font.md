@@ -51,3 +51,9 @@ micro /etc/vconsole.conf
 ```
 FONT=ter-132n
 ```
+
+>On CachyOS run this command as well if you have systemd-boot
+
+```
+sudo mkinitcpio -P
+```

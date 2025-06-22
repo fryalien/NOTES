@@ -74,4 +74,10 @@ https://chromewebstore.google.com/detail/decentraleyes/ldpochfccmkkmhdbclfhpagap
 
 https://chromewebstore.google.com/detail/new-window-without-toolba/epcobhhlenfbjlmooebphgjcgdmbjgnb
 
+>Return YouTube Dislike
 
+https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi
+
+>SponsorBlock for YouTube - Skip Sponsorships
+
+https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone

@@ -1,5 +1,7 @@
 **20 top lightweight apps for Linux**
 
+YOUTUBE: https://youtu.be/Dx1ISDmz7m8
+
 ```
 sudo pacman -S superfile
 ```
@@ -163,3 +165,7 @@ sudo pacman -S ffmpeg
 ```
 
 https://ffmpeg.org/
+
+---
+
+YOUTUBE: https://youtu.be/Dx1ISDmz7m8

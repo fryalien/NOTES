@@ -13,16 +13,19 @@ unix_sock_group = "libvirt"
 unix_sock_rw_perms = "0777"
 
 **ADD USER TO libvirt GROUP**
+
 ```
 sudo usermod -aG libvirt $USER
 ```
 
 **ENABLE SERVICE**
+
 ```
 systemctl enable libvirtd.service
 ```
 
 **START SERVICE**
+
 ```
 systemctl start libvirtd.service
 ```

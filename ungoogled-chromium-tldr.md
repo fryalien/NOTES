@@ -81,3 +81,7 @@ https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggk
 >SponsorBlock for YouTube - Skip Sponsorships
 
 https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone
+
+>Dark Reader
+
+https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh

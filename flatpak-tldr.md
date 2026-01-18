@@ -46,7 +46,7 @@ flatpak update
 
 **LIST ALL INSTALLED APPLICAITONS**
 ```
-flatpak list --app
+flatpak list --app --columns=application
 ```
 
 **LIST ALL THE APPLICAITONS AND RUNTIMES**
@@ -61,7 +61,7 @@ flatpak uninstall --unused
 
 **LIST ALL INSTALLED APPS TO A FILE**
 ```
-flatpak list --app > ~/Downloads/flatpak-list.md
+flatpak list --app --columns=application > ~/Downloads/flatpak-list.md
 ```
 
 **FLATPAK AUTO INSTALL**

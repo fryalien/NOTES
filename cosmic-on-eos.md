@@ -1,6 +1,6 @@
 **COMSMIC ON EOS**
 
->INSTALL LINK
+INSTALL LINK
 
 https://github.com/EndeavourOS-Community-Editions/cosmic
 

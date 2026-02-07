@@ -27,3 +27,9 @@ sudo pacman -S packagekit
 ```
 sudo pacman -S power-profiles-daemon   
 ```
+
+>Catppuccin theme
+
+```
+cd Public; git clone https://github.com/catppuccin/cosmic-desktop.git
+```
